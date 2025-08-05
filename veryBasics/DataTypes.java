@@ -15,7 +15,7 @@ public class DataTypes {
         System.out.print("_hashtag: ");
         String _hashtag = sc.nextLine();
 
-        // character typr
+        // character type
         char c = 77; // ASCII value of M
         char hash = '#';
         System.out.print("_hash: ");
