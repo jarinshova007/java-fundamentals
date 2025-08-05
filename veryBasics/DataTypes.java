@@ -22,7 +22,7 @@ public class DataTypes {
         char _hash = sc.next().charAt(0);
         sc.nextLine();
 
-        // int type
+        // integer type
         int age = 21;
         System.out.print("_age: ");
         int _age = sc.nextInt();
