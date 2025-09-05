@@ -7,20 +7,18 @@
 
 import java.util.Scanner;
 
-public class pattern12 {
+public class Pattern12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("row: ");
         int row = sc.nextInt();
-
-        int temp = row;
 
         // row
         for (int i = 1; i <= row; i++) {
             // column
             // spaces
             for (int j = 1; j <= row - i; j++) {
-                System.out.print("  "); // one space
+                System.out.print("  ");
             }
             // left half triangle
             for (int j = i; j >= 1; j--) {
@@ -32,5 +30,10 @@ public class pattern12 {
             }
             System.out.println();
         }
+
+        sc.close();
+        
     }
 }
+
+
