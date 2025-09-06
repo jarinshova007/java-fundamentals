@@ -13,18 +13,15 @@ public class Pattern12 {
         System.out.print("row: ");
         int row = sc.nextInt();
 
-        // row
         for (int i = 1; i <= row; i++) {
-            // column
-            // spaces
             for (int j = 1; j <= row - i; j++) {
                 System.out.print("  ");
             }
-            // left half triangle
+            // left half
             for (int j = i; j >= 1; j--) {
                 System.out.print(j + " ");
             }
-            // right half triangle
+            // right half
             for (int j = 2; j <= i; j++) {
                 System.out.print(j + " ");
             }
@@ -32,8 +29,6 @@ public class Pattern12 {
         }
 
         sc.close();
-        
+
     }
 }
-
-

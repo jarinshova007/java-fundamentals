@@ -29,7 +29,7 @@ public class Pattern14 {
                 }
             }
             
-            // upper upper right half
+            // upper right half
             for (int j = 1; j <= row; j++) {
                 if (j == row || (i + j) == row + 1) {
                     System.out.print("*");
@@ -50,7 +50,7 @@ public class Pattern14 {
                 }
             }
             
-            // lower upper right half
+            // lower right half
             for (int j = 1; j <= row; j++) {
                 if (j == row || (i + j) == row + 1) {
                     System.out.print("*");
